@@ -19,8 +19,8 @@ import requests
 logger = logging.getLogger(__name__)
 
 class DropboxService(ServiceBase):
-    ID = "dropbox"
-    DisplayName = "Dropbox"
+    ID = "weiyun"
+    DisplayName = "Weiyun"
     DisplayAbbreviation = "DB"
     AuthenticationType = ServiceAuthenticationType.OAuth
     AuthenticationNoFrame = True  # damn dropbox, spoiling my slick UI
